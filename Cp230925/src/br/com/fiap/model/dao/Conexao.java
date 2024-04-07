@@ -7,7 +7,7 @@ public class Conexao {
 		Connection con = null;
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
+			String url = "jdbc:oracle:thin:@xxxxx.xx.com.br:1521:ORCL";
 			final String USER = "";
 			final String PASS = "";
 			con = DriverManager.getConnection(url, USER, PASS);
